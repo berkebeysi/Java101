@@ -9,6 +9,7 @@ public class AdvancedCalculator {
         System.out.print("2.Sayı: ");
         nr2 = scan.nextInt();
         System.out.println("Sonuç: " + nr1 % nr2);
+        scan.close();
     }
 
     static void area() {
@@ -26,6 +27,7 @@ public class AdvancedCalculator {
             System.out.println("Alan: " + area);
             System.out.println("Çevre: " + around);
         }
+        scan.close();
     }
 
     static void factorial() {
@@ -37,6 +39,7 @@ public class AdvancedCalculator {
             result *= i;
         }
         System.out.println("Sonuç: " + result);
+        scan.close();
     }
 
     static void power() {
@@ -50,6 +53,7 @@ public class AdvancedCalculator {
             result *= base;
         }
         System.out.println("Sonuç: " + result);
+        scan.close();
     }
 
     static void divide() {
@@ -66,7 +70,7 @@ public class AdvancedCalculator {
             result = nr1 / nr2;
             System.out.println("Sonuç: " + result);
         }
-
+        scan.close();
     }
 
     static void times() {
@@ -85,6 +89,7 @@ public class AdvancedCalculator {
             result *= number;
         }
         System.out.println("Sonuç: " + result);
+        scan.close();
     }
 
     static void minus() {
@@ -102,6 +107,7 @@ public class AdvancedCalculator {
             result -= number;
         }
         System.out.println("Sonuç: " + result);
+        scan.close();
     }
 
     static void add() {
@@ -115,6 +121,7 @@ public class AdvancedCalculator {
             result += number;
         }
         System.out.println("Sonuç: " + result);
+        scan.close();
     }
 
     public static void main(String[] args) {
@@ -170,5 +177,6 @@ public class AdvancedCalculator {
                     System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz.");
             }
         }
+        scan.close();
     }
 }

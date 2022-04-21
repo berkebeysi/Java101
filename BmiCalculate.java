@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bmi {
+public class BmiCalculate {
     public static void main(String[] args) {
         Scanner indx = new Scanner(System.in);
         double height,weight,bmi;
@@ -13,5 +13,6 @@ public class bmi {
 
         bmi = weight/(height*height);
         System.out.println("Vücut Kitle İndeksiniz: "+ bmi);
+        indx.close();
     }
 }

@@ -13,5 +13,6 @@ public class Taksimetre {
         else {
             System.out.println("Ödemeniz gereken tutar: "+ 20);
         }
+        scan.close();
     }
 }

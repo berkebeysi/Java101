@@ -15,5 +15,6 @@ public class EvenNumbers {
             }
         }
         System.out.println(ort);
+        scan.close();
     }
 }

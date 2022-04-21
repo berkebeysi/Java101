@@ -20,5 +20,6 @@ public class Temperature {
         } else {
             System.out.println("Yüzmeye gidebilirsiniz...");
         }
+        scan.close();
     }
 }

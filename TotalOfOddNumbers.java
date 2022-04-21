@@ -12,5 +12,6 @@ public class TotalOfOddNumbers {
             n1 = scan.nextInt();
         }
         System.out.println(total);
+        scan.close();
     }
 }

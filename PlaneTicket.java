@@ -34,5 +34,6 @@ public class PlaneTicket {
         } else {
             System.out.println("Hatalı veri girdiniz...");
         }
+        scan.close();
     }
 }

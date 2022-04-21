@@ -21,5 +21,6 @@ public class Manav {
         pat = scan.nextDouble();
         total = (armut * perArmut) + (elma * perElma) + (domat * perDomat) + (muz * perMuz) + (pat * perPat);
         System.out.println("Toplam Tutar: "+total+ " TL");
+        scan.close();
     }
 }

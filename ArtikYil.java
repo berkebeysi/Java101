@@ -13,5 +13,6 @@ public class ArtikYil {
         else{
             System.out.println(year + " bir artık yıl değildir");
         }
+        scan.close();
     }
 }

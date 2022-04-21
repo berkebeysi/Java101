@@ -31,5 +31,6 @@ public class NotOrtalamasi {
 
         String durum = (ort>60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println(durum);
+        scan.close();
     }
 }

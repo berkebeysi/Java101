@@ -24,5 +24,6 @@ public class Combination {
         else{
             System.out.println("Lütfen n sayısından küçük bir r giriniz");
         }
+        scan.close();
     }
 }

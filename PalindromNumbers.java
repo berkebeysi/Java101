@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class PalindromNumbers {
     static boolean isPalindrom(int a) {
         int basamak, total = 0, sayac = 0, temp = a, temps;
@@ -24,7 +22,6 @@ public class PalindromNumbers {
             return true;
         else
             return false;
-
     }
 
     public static void main(String[] args) {

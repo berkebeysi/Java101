@@ -10,5 +10,6 @@ public class HarmonicNumbers {
             total+=1/i;
         }
         System.out.println(total);
+        scan.close();
     }
 }

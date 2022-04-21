@@ -28,5 +28,6 @@ public class ArmstrongNumbers {
         else{
             System.out.println(number + " bir armstrong sayı değildir");
         }
+        scan.close();
     }
 }

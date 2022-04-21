@@ -39,5 +39,6 @@ public class UserLogin {
         else{
             System.out.println("Kullanıcı adınız ve şifreniz hatalı");
         }
+        scan.close();
     }
 }

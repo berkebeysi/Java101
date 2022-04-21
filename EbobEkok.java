@@ -19,5 +19,6 @@ public class EbobEkok {
         ekok = (nr1 * nr2) / ebob;
         System.out.println("Ekokları: " + ekok);
         System.out.println("Ebobları: " + ebob);
+        scan.close();
     }
 }

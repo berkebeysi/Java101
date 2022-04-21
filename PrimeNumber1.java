@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class PrimeNumber1 {
     static boolean isPrimeNumber(int number) {
@@ -24,5 +23,6 @@ public class PrimeNumber1 {
         } else {
             System.out.println("ASAL DEĞİL");
         }
+        scan.close();
     }
 }

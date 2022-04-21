@@ -14,7 +14,6 @@ public class ExponentialNumber {
             total *= n1;
         }
         System.out.println(total);
-
-
+        scan.close();
     }
 }

@@ -37,5 +37,6 @@ public class GradePassProgram {
             System.out.println("Kaldınız...");
         }
         System.out.println("Ortalamanız: " + ort);
+        scan.close();
     }
 }

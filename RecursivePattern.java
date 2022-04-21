@@ -12,6 +12,7 @@ public class RecursivePattern
         num = input.nextInt();
 
         pattern(num);
+        input.close();
     }
 
     static void pattern(int num) {
@@ -24,5 +25,4 @@ public class RecursivePattern
         pattern(num - 5);
         System.out.print(num + " ");
     }
-
 }

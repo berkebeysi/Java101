@@ -20,5 +20,6 @@ public class KdvHesap {
         System.out.println("KDV oranı: "+kdv);
         System.out.println("KDV'li Fiyat: "+ kdvli);
         System.out.println("KDV Tutarı: "+ kdvtutar);
+        scan.close();
     }
 }

@@ -24,5 +24,6 @@ public class MaxMinNumbers {
         }
         System.out.println("Maks: " + max);
         System.out.println("Min: " + min);
+        scan.close();
     }
 }

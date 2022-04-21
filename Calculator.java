@@ -35,5 +35,6 @@ public class Calculator {
             default:
                 System.out.println("Geçersiz sayı girdiniz...");
         }
+        scan.close();
     }
 }

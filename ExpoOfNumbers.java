@@ -15,5 +15,6 @@ public class ExpoOfNumbers {
         for (int i = 1; i < n1; i *= 5) {
             System.out.print(i+",");
         }
+        scan.close();
     }
 }

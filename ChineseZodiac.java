@@ -47,5 +47,6 @@ public class ChineseZodiac {
             default:
                 System.out.println("Hatalı veri girişi yapıldı");
         }
+        scan.close();
     }
 }

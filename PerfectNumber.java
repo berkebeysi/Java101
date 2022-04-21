@@ -17,5 +17,6 @@ public class PerfectNumber {
         else{
             System.out.println(nr+" mükemmel bir sayı değildir.");
         }
+        scan.close();
     }
 }

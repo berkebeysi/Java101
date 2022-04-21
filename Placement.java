@@ -30,5 +30,6 @@ public class Placement {
                 System.out.println(n1 + ">" + n2 + ">" + n3);
             }
         }
+        scan.close();
     }
 }

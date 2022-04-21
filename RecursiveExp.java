@@ -19,5 +19,6 @@ public class RecursiveExp {
         System.out.print("Üs değerini giriniz: ");
         exp = scan.nextInt();
         System.out.println("Sonuç: " + Exp(base, exp));
+        scan.close();
     }
 }

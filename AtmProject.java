@@ -55,5 +55,6 @@ public class AtmProject {
                 }
             }
         }
+        scan.close();
     }
 }

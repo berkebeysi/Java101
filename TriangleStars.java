@@ -24,5 +24,6 @@ public class TriangleStars {
             }
             System.out.println();
         }
+        scan.close();
     }
 }

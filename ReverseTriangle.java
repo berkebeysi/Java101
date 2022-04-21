@@ -17,5 +17,6 @@ public class ReverseTriangle {
             }
             System.out.println();
         }
+        scan.close();
     }
 }

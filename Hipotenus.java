@@ -13,5 +13,6 @@ public class Hipotenus {
         u = (a+b+c)/2;
         alan = Math.sqrt(u * (u-a) * (u-b) * (u-c));
         System.out.println("Üçgenin alanı : " + alan + "metrekaredir");
+        scan.close();
     }
 }
